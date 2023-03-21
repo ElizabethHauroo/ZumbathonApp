@@ -25,8 +25,7 @@ public class HomeActivity extends AppCompatActivity {
     Button logoutBtn;
     RecyclerView recyclerView;
     DatabaseReference database;
-    MyAdapter myAdapter;
-    ArrayList<User> list;
+
 
 
     @Override
@@ -35,13 +34,10 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         recyclerView = findViewById(R.id.recycleView);
-        database = FirebaseDatabase.getInstance().getReference("Users");
-        recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        list = new ArrayList<>();
-        myAdapter = new MyAdapter(this, list);
-        recyclerView.setAdapter(myAdapter);
+
+
 
        logoutBtn = findViewById(R.id.mainLogoutBTN);
 
@@ -55,21 +51,7 @@ public class HomeActivity extends AppCompatActivity {
            }
        });
 
-       database.addValueEventListener(new ValueEventListener() {
-           @Override
-           public void onDataChange(@NonNull DataSnapshot snapshot) {
-               for (DataSnapshot dataSnapshot : snapshot.getChildren()){
-                   User user = dataSnapshot.getValue(User.class);
-                   list.add(user);
-               }
-               myAdapter.notifyDataSetChanged();
-           }
 
-           @Override
-           public void onCancelled(@NonNull DatabaseError error) {
-
-           }
-       });
 
 
 
