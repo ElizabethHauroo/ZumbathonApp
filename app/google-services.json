@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "604368502789",
+    "project_id": "zumabthonapp",
+    "storage_bucket": "zumabthonapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604368502789:android:a08c28c524329e49891c6c",
+        "android_client_info": {
+          "package_name": "com.example.mynciapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604368502789-03srjta3etl424uh5n9vpjt1v79cn7ep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOj0fmMsIsZ_gx69FwVA4pQLJStMai1oQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604368502789-03srjta3etl424uh5n9vpjt1v79cn7ep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604368502789:android:cb781db426adf055891c6c",
+        "android_client_info": {
+          "package_name": "com.example.zumbathonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604368502789-03srjta3etl424uh5n9vpjt1v79cn7ep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOj0fmMsIsZ_gx69FwVA4pQLJStMai1oQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604368502789-03srjta3etl424uh5n9vpjt1v79cn7ep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
