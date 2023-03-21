@@ -2,22 +2,22 @@ package com.example.zumbathonapp;
 
 //we need this class for the user data
 public class User {
-    String name, account;
+    String FullName, Account;
 
     public User() {
     }
 
     public User(String name, String account) {
-        this.name = name;
-        this.account = account;
+        this.FullName = name;
+        this.Account = account;
     }
 
-    public String getName() {
-        return name;
+    public String getFullName() {
+        return FullName;
     }
 
 
     public String getAccount() {
-        return account;
+        return Account;
     }
 }

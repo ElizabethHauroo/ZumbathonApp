@@ -31,7 +31,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull MyAdapter.MyViewHolder holder, int position) {
         User user = list.get(position);
-        holder.name.setText(user.getName());
+        holder.name.setText(user.getFullName());
         holder.account.setText(user.getAccount());
     }
 
