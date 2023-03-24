@@ -43,7 +43,7 @@ public class HomeActivity extends AppCompatActivity {
         myAdapter = new MyAdapter(this, list);
         recyclerView.setAdapter(myAdapter);
 
-       logoutBtn = findViewById(R.id.mainLogoutBTN);
+       /*logoutBtn = findViewById(R.id.mainLogoutBTN);
 
 
        logoutBtn.setOnClickListener(new View.OnClickListener() {
@@ -53,7 +53,7 @@ public class HomeActivity extends AppCompatActivity {
                startActivity(new Intent(getApplicationContext(), MainActivity.class));
                finish();
            }
-       });
+       }); */
 
        database.addValueEventListener(new ValueEventListener() {
            @Override

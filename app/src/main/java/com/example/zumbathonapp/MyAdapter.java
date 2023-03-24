@@ -31,8 +31,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull MyAdapter.MyViewHolder holder, int position) {
         User user = list.get(position);
-        holder.name.setText(user.getFullName());
-        holder.account.setText(user.getAccount());
+        holder.FullName.setText(user.getFullName());
+        holder.Account.setText(user.getAccount());
     }
 
     @Override
@@ -42,13 +42,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView name, account;
+        TextView FullName, Account;
 
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            name = itemView.findViewById(R.id.recyclerView_name);
-            account = itemView.findViewById(R.id.recyclerView_status);
+            FullName = itemView.findViewById(R.id.recyclerView_name);
+            Account = itemView.findViewById(R.id.recyclerView_status);
         }
     }
 }
