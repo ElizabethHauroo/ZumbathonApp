@@ -1,13 +1,13 @@
 package com.example.zumbathonapp;
 
 //we need this class for the user data MODEL
-public class User {
+public class UserAdapter {
     String FullName, Account;
 
-    public User() {
+    public UserAdapter() {
     }
 
-    public User(String name, String account) {
+    public UserAdapter(String name, String account) {
         this.FullName = name;
         this.Account = account;
     }

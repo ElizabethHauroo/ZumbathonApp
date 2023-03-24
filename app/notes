@@ -1,14 +1,14 @@
 
-##### Debugging #####
-- When I am login in, I am brought to an empty activity... it should be the home activity which now has a logout out button but it's all blank. Regardless of admin or user..
- ^ It is actually showing the right page, my constraints must be way off.
+
 
 ##### To Do ######
 
-Recycler View is not working. Either it is not visibile, or I've done something wrong, could possibly be the "account" stuff
+
 
 Pull all the users into the Recycler View
 Admin right to delete
+
+###################
 
 
 
@@ -19,7 +19,12 @@ if they select instructor, the price is 15
 else participants is 20
 Also zinid field is compulsory if registering as instructor
 
+##### Debugging #####
+- When I am login in, I am brought to an empty activity... it should be the home activity which now has a logout out button but it's all blank. Regardless of admin or userAdapter..
+ ^ It is actually showing the right page, my constraints must be way off.
 
+ Recycler View is not working. Either it is not visibile, or I've done something wrong, could possibly be the "account" stuff
+ ^ Got this working, now on a new activity.
 ####
 
 og activity home:

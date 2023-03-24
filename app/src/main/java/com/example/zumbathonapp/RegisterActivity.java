@@ -85,7 +85,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                 //checkbox verification
                 if(!(isInstructorBox.isChecked() || isParticipantBox.isChecked())){
-                    Toast.makeText(RegisterActivity.this, "Select User Type", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, "Select UserAdapter Type", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
