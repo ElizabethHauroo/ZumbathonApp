@@ -114,7 +114,7 @@ public class RegisterActivity extends AppCompatActivity {
                             }
                             if(isParticipantBox.isChecked()){
                                 userInfo.put("isParticipant", "1");
-                                userInfo.put("account", "Participant");
+                                userInfo.put("Account", "Participant");
                                 userInfo.put("Price", 20);
                             }
                             //specify if the user is admin, instructor or participant

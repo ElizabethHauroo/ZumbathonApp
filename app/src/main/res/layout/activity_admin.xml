@@ -41,6 +41,7 @@
         android:layout_marginTop="-800dp">
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/admin_recycler"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </FrameLayout>
